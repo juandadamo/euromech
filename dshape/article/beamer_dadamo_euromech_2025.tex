@@ -1,0 +1,101 @@
+\documentclass[10pt,fleqn,a4paper,twoside]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,subcaption,adjustbox}
+\usepackage{lmodern,tikz,pgfplots,amsmath,siunitx,amssymb}
+\usetikzlibrary{arrows,positioning}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{3d,calc}
+\usetikzlibrary{external,patterns,arrows.meta}
+\tikzexternalize
+\usepackage{pgfplotstable}
+%\usepgfplotslibrary{groupplots}
+%\usepackage[top=1cm, bottom=2cm, left=2.3cm,right=2.3cm]{geometry}
+\usepackage{babel,amsmath}
+%\usepackage[numbers]{natbib}
+\usepackage{adjustbox}
+\pgfplotsset{compat=newest} 
+%opening
+\title{}
+\author{}
+\pgfplotsset{scaled x ticks=false}
+\graphicspath{{pdfs}}
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		
+	\end{abstract}
+	
+	\section{}
+Results for a model $D = 20mm$.
+	\begin{figure}
+		
+		\centering
+		
+		\begin{subfigure}[t]{.49\columnwidth} \begin{adjustbox}{varwidth=\textwidth,fbox,center}	
+				\resizebox{\columnwidth}{!}{%	
+					\tikzsetnextfilename{tikzs/CD_B0.45}			
+					\input{tikzs/CD_B0.45.tikz}
+				}	\centering				
+				\caption{$B=0.45\cdot10^{-5}\SI{}{\newton\meter}$.}\label{fig:B004}	\end{adjustbox}
+		\end{subfigure}
+		\begin{subfigure}[t]{.49\columnwidth}	\begin{adjustbox}{varwidth=\textwidth,fbox,center}
+				\resizebox{\columnwidth}{!}{%	
+					\tikzsetnextfilename{tikzs/CD_B5.59}			
+					\input{tikzs/CD_B5.59.tikz}
+				}						
+				\caption{$B=5.58\cdot10^{-5}\SI{}{\newton\meter}$.}\label{fig:B050}	\end{adjustbox}
+		\end{subfigure}
+		\vfill
+		\begin{subfigure}[t]{.49	\columnwidth}	\begin{adjustbox}{varwidth=\textwidth,fbox,center}
+				\resizebox{\columnwidth}{!}{%	
+					\tikzsetnextfilename{tikzs/CD_B45.44}			
+					\input{tikzs/CD_B45.44.tikz}
+				}						
+				\caption{$B=45.1\cdot10^{-5}\SI{}{\newton\meter}$.}\label{fig:B454}	\end{adjustbox}
+		\end{subfigure}
+			\caption{Drag coefficient obtained for three flexural rigidities in function of Reynolds number. The varyng parameter for each plot is the length of the flexible flaps $\ell/D$ attached to the D-shaped cylinder.}\label{fig:cd}
+		\end{figure} 
+%	\begin{figure}		
+%			\begin{subfigure}[t]{\textwidth}
+%			\centering\resizebox{\textwidth}{!}{%
+%\includegraphics[width=\textwidth]{pdfs/CD_RE_50}	
+%			} \subcaption{}
+%		\end{subfigure}
+%	
+%	\end{figure}
+	\begin{figure}		
+	\begin{subfigure}[t]{.5\textwidth}
+		\centering\resizebox{\textwidth}{!}{%
+				\tikzsetnextfilename{pdfs/CD_RE_50}	
+		\input{tikzs/CD_RE_50.tikz}	
+		} 	\subcaption{$B=4.43\cdot10^{-5}\SI{}{\newton\meter}$.}\label{fig:B043}
+	\end{subfigure}
+	\begin{subfigure}[t]{.5\textwidth}
+	\centering\resizebox{\textwidth}{!}{%
+		\tikzsetnextfilename{pdfs/CD_RE_75}	
+		\input{tikzs/CD_RE_75.tikz}	
+	} \subcaption{$B=23.4\cdot10^{-5}\SI{}{\newton\meter}$.}\label{fig:B234}
+\end{subfigure}	
+
+
+\caption{Results for a model $D = 50mm$.}
+
+\end{figure}
+Flexibility can reduce drag in these cases.
+
+In experiences with $D=50mm$, two elastic modes can be found. Mode 1 \textit{small} lengths. 
+We found, for $B=4.43\cdot10^{-5}\SI{}{\newton\meter}$ Mode 1 in $\ell/D$=0.75. For $B=23.4\cdot10^{-5}\SI{}{\newton\meter}$
+ $\ell/D\le 1.00$. 
+ 
+ It is important in order to define a reduce velocity number $U_R = f_n D / u_\infty$
+ 
+ Defining a Cauchy number
+ $$Ca = \frac{\rho u_\infty^2\ell^3}{8B}$$
+ 
+ 
+ 
+ 
+\end{document}

@@ -1,0 +1,45 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Garc{\'\i}a-Baena et~al.(2021)Garc{\'\i}a-Baena,
+  Jim{\'e}nez-Gonz{\'a}lez, and Mart{\'\i}nez-Baz{\'a}n]{garcia2021drag}
+C~Garc{\'\i}a-Baena, JI~Jim{\'e}nez-Gonz{\'a}lez, and
+  C~Mart{\'\i}nez-Baz{\'a}n.
+\newblock Drag reduction of a blunt body through reconfiguration of rear
+  flexible plates.
+\newblock \emph{Physics of Fluids}, 33\penalty0 (4):\penalty0 045102, 2021.
+
+\bibitem[Giannetti and Luchini(2007)]{Giannetti:2007p127}
+F~Giannetti and P~Luchini.
+\newblock Structural sensitivity of the first instability of the cylinder wake.
+\newblock \emph{Journal of Fluid Mechanics}, 581:\penalty0 167--197, 2007.
+
+\bibitem[Gosselin et~al.(2010)Gosselin, De~Langre, and
+  Machado-Almeida]{gosselin2010drag}
+F~Gosselin, E~De~Langre, and B~A Machado-Almeida.
+\newblock Drag reduction of flexible plates by reconfiguration.
+\newblock \emph{Journal of Fluid Mechanics}, 650:\penalty0 319--341, 2010.
+
+\bibitem[Leclercq et~al.(2018)Leclercq, Peake, and De~Langre]{leclercq2018does}
+T~Leclercq, N~Peake, and E~De~Langre.
+\newblock Does flutter prevent drag reduction by reconfiguration?
+\newblock \emph{Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences}, 474\penalty0 (2209):\penalty0 20170678, 2018.
+
+\bibitem[Strykowski and Sreenivasan(1990)]{strykowski1990formation}
+PJ~Strykowski and KR~Sreenivasan.
+\newblock On the formation and suppression of vortex ‘shedding’at low
+  reynolds numbers.
+\newblock \emph{Journal of Fluid Mechanics}, 218:\penalty0 71--107, 1990.
+
+\bibitem[Thiria et~al.(2009)Thiria, Cadot, and Beaudoin]{thiria2009passive}
+B~Thiria, O~Cadot, and J-F Beaudoin.
+\newblock Passive drag control of a blunt trailing edge cylinder.
+\newblock \emph{Journal of fluids and structures}, 25\penalty0 (5):\penalty0
+  766--776, 2009.
+
+\end{thebibliography}
